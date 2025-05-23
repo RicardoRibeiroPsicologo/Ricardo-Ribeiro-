@@ -31,8 +31,8 @@ section img {
     justify-content: center;
 }
   
-@media (max-width: 1080px) {
+@media (max-width: 450px) {
     .swiper {
-      height: 1080px;
+      height: 270px;
     }
 }
