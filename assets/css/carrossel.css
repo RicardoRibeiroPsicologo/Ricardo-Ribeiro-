@@ -30,7 +30,13 @@ section img {
     align-items: center;
     justify-content: center;
 }
-  
+
+.project-img {
+    height: none;
+    width: none;
+    display: flex;
+}
+
 @media (max-width: 450px) {
     .swiper {
       height: 270px;
