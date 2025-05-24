@@ -45,3 +45,8 @@ section img {
       height: auto;
     }
 }
+
+/* botão próximo*/
+.swiper-button-next {
+    color: white;
+}
