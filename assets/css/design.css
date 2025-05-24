@@ -55,7 +55,6 @@ header p {
 .profile {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
   margin: 30px 0;
