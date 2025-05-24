@@ -25,7 +25,11 @@ section img {
     width: 100%;
     display: flex;
 }
-  
+
+.swiper-wrapper {
+    max-width: 600px;
+}
+
 .swiper-slide {
     text-align: center;
     display: flex;
