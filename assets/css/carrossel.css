@@ -50,3 +50,7 @@ section img {
 .swiper-button-next {
     color: white;
 }
+
+.swiper-button-next::placeholder {
+    color: black;
+}
