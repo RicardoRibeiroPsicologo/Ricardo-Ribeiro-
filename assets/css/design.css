@@ -1,6 +1,5 @@
 /* estilize o css do seu site aqui */
 
-
 :root {
   --primary-color: #3c2920;
   --secondary-color: #e6b52e;
@@ -55,7 +54,7 @@ header p {
         
 .profile {
   display: flex;
-  flex-direction: colum;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
