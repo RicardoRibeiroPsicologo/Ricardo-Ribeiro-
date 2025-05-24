@@ -21,7 +21,9 @@ section img {
 }
   
 .swiper {
-    height: 500px;
+    height: none;
+    wedth: none;
+    display: flex;
 }
   
 .swiper-slide {
@@ -31,11 +33,11 @@ section img {
     justify-content: center;
 }
 
-.project-img {
+.project-img {/*
     height: none;
     width: none;
     display: flex;
-}
+*/}
 
 @media (max-width: 450px) {
     .swiper {
