@@ -21,13 +21,9 @@ section img {
 }
   
 .swiper {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    max-width: 620px;
     display: flex;
-}
-
-.swiper-wrapper {
-    max-width: 600px;
 }
 
 .swiper-slide {
