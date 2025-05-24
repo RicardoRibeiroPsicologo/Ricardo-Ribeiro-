@@ -33,9 +33,10 @@ section img {
     justify-content: center;
 }
 
+/* aqui você ajusta o tamanho da imagem que aparece no carrossel*/
 .project-img {
     height: auto;
-    width: 100%;
+    max-width: 500px;
     display: flex;
 }
 
