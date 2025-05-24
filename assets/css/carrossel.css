@@ -33,14 +33,14 @@ section img {
     justify-content: center;
 }
 
-.project-img {/*
-    height: none;
-    width: none;
+.project-img {
+    height: 100%;
+    width: 100%;
     display: flex;
-*/}
+}
 
 @media (max-width: 450px) {
     .swiper {
-      height: 270px;
+      height: auto;
     }
 }
