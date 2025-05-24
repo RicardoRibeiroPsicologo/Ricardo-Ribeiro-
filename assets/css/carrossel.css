@@ -25,6 +25,8 @@ section img {
 }
   
 .swiper-slide {
+    height: none;
+    width: none;
     text-align: center;
     display: flex;
     align-items: center;
