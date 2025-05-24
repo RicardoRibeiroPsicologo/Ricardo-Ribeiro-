@@ -55,7 +55,7 @@ header p {
         
 .profile {
   display: flex;
-  flex-direction: row;
+  flex-direction: colum;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -63,7 +63,7 @@ header p {
 }
         
 .profile img {
-  max-width: none;
+  max-width: 400px;
   border-radius: 12px;
 }
         
