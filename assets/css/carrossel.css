@@ -3,7 +3,6 @@
     width: none;
     max-width: none;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
@@ -23,7 +22,7 @@ section img {
   
 .swiper {
     height: auto;
-    max-width: 620px;
+    width: auto;
     display: flex;
 }
 
