@@ -63,8 +63,7 @@ header p {
 }
         
 .profile img {
-  display: flex;
-  max-width: 500px;
+  max-width: none;
   border-radius: 12px;
 }
         
