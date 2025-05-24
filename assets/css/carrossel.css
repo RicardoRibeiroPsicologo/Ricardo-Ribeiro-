@@ -46,7 +46,11 @@ section img {
     }
 }
 
-/* botão próximo*/
+/* botão próxima imagem do carrossel*/
 .swiper-button-next {
+    color: none;
+}
+/* botão voltar imagem do carrossel*/
+.swiper-button-prev {
     color: none;
 }
