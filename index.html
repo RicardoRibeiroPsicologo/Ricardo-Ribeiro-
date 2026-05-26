@@ -1,325 +1,1313 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contacto - Clínica de Psicologia</title>
-        <!-- arquivos css -->
-        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-        <link rel="stylesheet" href="./assets/css/design.css"/>
-        <link rel="stylesheet" href="./assets/css/carrossel.css"/>
-    </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto – Clínica de Psicologia | Ricardo Ribeiro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
-    <!-- Seção body que fica todo o conteúdo do seu site -->
-    <body>
-        <header>
-            <img src="./assets/imagens/logo.png" alt="Logo Contacto Clínica de Psicologia">
-            <h1>Contacto - Clínica de Psicologia</h1>
-            <p>Cuidando da sua saúde mental com profissionalismo e acolhimento.</p>
-        </header>
-    
-        <div class="container">
-            <div class="profile">
-                <img src="./assets/imagens/foto_perfil.jpg" alt="Psicólogo Ricardo Ribeiro">
-                <h2>Ricardo Ribeiro</h2>
-                <p>Psicólogo | CRP 04/79520</p>
-            </div>
-    
-            <section id="sobre">
-                <h2>Sobre Mim</h2>
-                <p>Olá! Sou <strong>Ricardo Ribeiro</strong>, <strong>psicólogo clínico (CRP 04/79520)</strong>, bacharel em Psicologia pelo Centro Universitário UNIFEOB. Tenho como missão acolher, compreender e auxiliar cada pessoa que busca por um espaço de escuta, reflexão e crescimento.</p>
-                <br/>
-                <p>Desde os primeiros anos da graduação, me encantei pela <strong>psicologia hospitalar e a Abordagem Humanista</strong>, onde pude vivenciar o cuidado com pessoas em situações de dor, luto, adoecimento e finitude. Essa experiência me transformou profundamente e reforçou minha vocação em oferecer uma escuta ética, acolhedora e com sentido.</p>
-                <br/>
-                <p>A abordagem terapêutica que utilizo é baseada na <strong>Psicologia Humanista, com ênfase na Logoterapia</strong>, desenvolvida por <strong>Viktor Frankl. </strong>
+  <style>
+    /* ──────────────────────────────────────────
+       TOKENS
+    ────────────────────────────────────────── */
+    :root {
+      --sage:    #2C4A3E;
+      --sage-lt: #3A5F51;
+      --gold:    #C9A457;
+      --gold-lt: #DDB96A;
+      --cream:   #F7F3ED;
+      --linen:   #EDE6D8;
+      --text:    #1A2B25;
+      --muted:   #5A7068;
+      --white:   #FFFFFF;
 
-Essa abordagem parte da ideia de que, mesmo diante do sofrimento, é possível <strong>encontrar um sentido para a vida.</strong> O foco do trabalho está em ajudar você a se reconectar com aquilo que dá sentido à sua existência, como seus <strong>valores, relações, propósitos e escolhas. </strong>
+      --ff-head: 'Cormorant Garamond', Georgia, serif;
+      --ff-body: 'Jost', sans-serif;
 
-A Logoterapia compreende o ser humano de forma integral considerando suas dimensões física, emocional e espiritual (no sentido existencial, não necessariamente religioso), podendo assim compreeeder ele em sua totalidade e busca <strong>promover autonomia, responsabilidade e realização pessoal. </strong>
+      --radius: 4px;
+      --transition: 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+    }
 
-Além disso, meu trabalho é fortemente influenciado pela <strong>Abordagem Centrada na Pessoa (ACP), de Carl Rogers,</strong> que reforça a importância de uma <strong>relação terapêutica genuína, empática e acolhedora.</strong> Acredito que é nesse espaço de confiança que o processo de cura e crescimento realmente acontece.</p>
-                <br/>
-                <p>Realizo atendimento  Online, Domiciliar, Plantão Psicológico, Atendimentos Presencial.</p>
-                <br/>
-            </section>
-    
-            <section id="clinica">
-                <h2>Sobre a Contato Clínica de Psicologia</h2>
-                <p>A <strong>Contato Clínica de Psicologia</strong> nasce do desejo de criar um espaço terapêutico que acolhe, escuta e transforma um lugar onde o ser humano pode se encontrar, ressignificar e florescer.</p>
-                <br/>
-                <p>Nosso nome representa a conexão genuína com a própria essência, com os outros e com o mundo. Acreditamos que o contato verdadeiro consigo mesmo é o primeiro passo para o autoconhecimento e para a construção de uma vida com sentido.</p>
-                <br/>
-                <p>Valorizamos a <strong>escuta humanizada</strong>, <strong>ética profissional</strong> e o respeito à <strong>singularidade</strong> de cada ser humano. Nossa missão é <em>"tocar vidas e fazê-las entrarem em contato com seu eu mais íntimo, entrando na presença e significado para transformar e florescer suas essências da vida."</em></p>
-                <a class="cta-button" href="https://wa.me/5535999270650" target="_blank">Agendar pelo WhatsApp</a>
-            </section>
-            
-            <section id="cuidados">
-                <h2> Importância de cuidar da Saúde Mental e Emocional</h2>
-                <p>Cuidar da saúde mental e emocional é um passo essencial para viver com equilíbrio, bem-estar e sentido. Assim como buscamos apoio médico quando sentimos dores físicas, também é importante reconhecer quando nossos sentimentos, pensamentos e emoções pedem atenção e cuidado especializado. A vida nos apresenta desafios que, em muitos momentos, despertam  <strong>angústias, conflitos internos,depressão, ansiedade, sofrimento e dúvidas existenciais.</strong> </p>
-                <br/>
-                <p>Nestes momentos, a psicoterapia se torna um espaço seguro e acolhedor para olhar para dentro, elaborar vivências e construir novos caminhos com mais autenticidade, clareza e propósito.</p>
-                <br/> 
-                <p>Buscar ajuda não é sinal de fraqueza, mas um gesto de coragem e compromisso com o próprio florescimento.<strong>Cuidar da saúde mental é essencial para uma vida equilibrada e com sentido.</strong> Questões como <strong>depressão</strong>, <strong>ansiedade</strong>, <strong>crises existenciais</strong> e <strong>baixa autoestima</strong> são enfrentadas com seriedade e acolhimento na clínica.</p>
-                <br/>
-            </section>
+    /* ──────────────────────────────────────────
+       RESET & BASE
+    ────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+
+    body {
+      font-family: var(--ff-body);
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    img { display: block; max-width: 100%; }
+    a { text-decoration: none; color: inherit; }
+
+    /* ──────────────────────────────────────────
+       SCROLL REVEAL
+    ────────────────────────────────────────── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(32px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: none;
+    }
+
+    /* ──────────────────────────────────────────
+       NAV
+    ────────────────────────────────────────── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.2rem 5vw;
+      transition: background var(--transition), box-shadow var(--transition);
+    }
+    nav.scrolled {
+      background: rgba(44, 74, 62, 0.97);
+      box-shadow: 0 2px 24px rgba(0,0,0,0.18);
+    }
+    .nav-logo {
+      font-family: var(--ff-head);
+      font-size: 1.3rem;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      color: var(--white);
+    }
+    .nav-logo span { color: var(--gold); }
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.8);
+      transition: color 0.25s;
+    }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta {
+      background: var(--gold);
+      color: var(--sage) !important;
+      padding: 0.55rem 1.3rem;
+      border-radius: var(--radius);
+      font-weight: 600 !important;
+      transition: background 0.25s, transform 0.2s !important;
+    }
+    .nav-cta:hover { background: var(--gold-lt); transform: translateY(-1px); }
+
+    #logo-contacto {
+      vertical-align: middle;
+      display: inline;
+      max-width: 80px;
+    }
+
+    /* Hamburger */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 4px;
+    }
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--white);
+      transition: var(--transition);
+    }
+    .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+    /* ──────────────────────────────────────────
+       HERO
+    ────────────────────────────────────────── */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      background: var(--sage);
+      overflow: hidden;
+    }
+
+    /* Decorative mesh */
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 70% 60% at 80% 40%, rgba(201,164,87,0.12) 0%, transparent 70%),
+        radial-gradient(ellipse 50% 80% at 10% 70%, rgba(0,0,0,0.25) 0%, transparent 70%);
+    }
+
+    .hero-grain {
+      position: absolute;
+      inset: 0;
+      opacity: 0.04;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+      background-size: 180px;
+    }
+
+    /* Large decorative circle */
+    .hero-circle {
+      position: absolute;
+      right: -8vw;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 55vw;
+      height: 55vw;
+      max-width: 700px;
+      max-height: 700px;
+      border-radius: 50%;
+      border: 1px solid rgba(201,164,87,0.2);
+      pointer-events: none;
+    }
+    .hero-circle::after {
+      content: '';
+      position: absolute;
+      inset: 12%;
+      border-radius: 50%;
+      border: 1px solid rgba(201,164,87,0.12);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      padding: 10rem 5vw 6rem;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    .hero-text .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.7rem;
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1.5rem;
+    }
+    .hero-text .eyebrow::before {
+      content: '';
+      display: block;
+      width: 28px;
+      height: 1px;
+      background: var(--gold);
+    }
+
+    .hero-text h1 {
+      font-family: var(--ff-head);
+      font-size: clamp(3rem, 5.5vw, 5rem);
+      font-weight: 300;
+      line-height: 1.12;
+      color: var(--white);
+      margin-bottom: 1.5rem;
+    }
+    .hero-text h1 em {
+      font-style: italic;
+      color: var(--gold);
+    }
+
+    .hero-text p {
+      font-size: 1rem;
+      font-weight: 300;
+      color: rgba(255,255,255,0.7);
+      max-width: 440px;
+      margin-bottom: 2.5rem;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.85rem 2rem;
+      border-radius: var(--radius);
+      font-family: var(--ff-body);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      cursor: pointer;
+      border: none;
+      transition: all 0.25s;
+    }
+    .btn-gold {
+      background: var(--gold);
+      color: var(--sage);
+    }
+    .btn-gold:hover {
+      background: var(--gold-lt);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(201,164,87,0.35);
+    }
+    .btn-outline {
+      background: transparent;
+      color: var(--white);
+      border: 1px solid rgba(255,255,255,0.35);
+    }
+    .btn-outline:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    /* Profile card (right column of hero) */
+    .hero-card {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+    .hero-card-inner {
+      position: relative;
+      width: 340px;
+    }
+    .hero-card-inner::before {
+      content: '';
+      position: absolute;
+      top: 20px; left: 20px;
+      right: -20px; bottom: -20px;
+      border: 1px solid rgba(201,164,87,0.3);
+      border-radius: 2px;
+    }
+    .hero-img {
+      width: 100%;
+      aspect-ratio: 3/4;
+      object-fit: cover;
+      object-position: top;
+      border-radius: 2px;
+      position: relative;
+      z-index: 1;
+      filter: grayscale(20%);
+    }
+    .hero-badge {
+      position: absolute;
+      bottom: -1.5rem;
+      left: -1.5rem;
+      z-index: 2;
+      background: var(--gold);
+      color: var(--sage);
+      padding: 1rem 1.4rem;
+      border-radius: var(--radius);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      line-height: 1.4;
+    }
+    .hero-badge strong {
+      display: block;
+      font-size: 1rem;
+      font-weight: 600;
+      font-family: var(--ff-head);
+    }
+
+    /* ──────────────────────────────────────────
+       STATS STRIP
+    ────────────────────────────────────────── */
+    .stats-strip {
+      background: var(--text);
+      padding: 2.5rem 5vw;
+    }
+    .stats-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem;
+      text-align: center;
+    }
+    .stat-item {
+      padding: 0.5rem;
+    }
+    .stat-number {
+      font-family: var(--ff-head);
+      font-size: 2.8rem;
+      font-weight: 300;
+      color: var(--gold);
+      line-height: 1;
+    }
+    .stat-label {
+      font-size: 0.75rem;
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.5);
+      margin-top: 0.4rem;
+    }
+
+    /* ──────────────────────────────────────────
+       SECTION UTILITY
+    ────────────────────────────────────────── */
+    .section {
+      padding: 7rem 5vw;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .section-full {
+      padding: 7rem 5vw;
+    }
+    .section-title {
+      font-family: var(--ff-head);
+      font-size: clamp(2.2rem, 3.5vw, 3.2rem);
+      font-weight: 400;
+      line-height: 1.2;
+      color: var(--sage);
+      margin-bottom: 1rem;
+    }
+    .section-title em { font-style: italic; color: var(--gold); }
+    .section-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+    .section-eyebrow::before {
+      content: '';
+      display: block;
+      width: 22px;
+      height: 1px;
+      background: var(--gold);
+    }
+    .section-lead {
+      font-size: 1.05rem;
+      font-weight: 300;
+      color: var(--muted);
+      max-width: 560px;
+      margin-bottom: 3.5rem;
+    }
+
+    /* Divider */
+    .divider {
+      width: 48px;
+      height: 2px;
+      background: var(--gold);
+      margin: 1.2rem 0 2rem;
+    }
+
+    /* ──────────────────────────────────────────
+       ABOUT SECTION
+    ────────────────────────────────────────── */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6rem;
+      align-items: start;
+    }
+    .about-text p {
+      font-size: 0.97rem;
+      color: var(--muted);
+      margin-bottom: 1.2rem;
+    }
+    .about-text p strong { color: var(--text); font-weight: 600; }
+    .about-text p em { font-style: italic; color: var(--sage); }
+    .approach-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-top: 2rem;
+    }
+    .tag {
+      padding: 0.4rem 1rem;
+      border: 1px solid var(--linen);
+      border-radius: 100px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--muted);
+      background: var(--white);
+    }
+
+    .about-sidebar {
+      position: sticky;
+      top: 6rem;
+    }
+    .quote-block {
+      background: var(--sage);
+      color: var(--white);
+      padding: 2.5rem;
+      border-radius: var(--radius);
+      margin-bottom: 1.5rem;
+      position: relative;
+    }
+    .quote-block::before {
+      content: '"';
+      font-family: var(--ff-head);
+      font-size: 6rem;
+      color: var(--gold);
+      opacity: 0.3;
+      position: absolute;
+      top: -1rem;
+      left: 1.5rem;
+      line-height: 1;
+    }
+    .quote-block p {
+      font-family: var(--ff-head);
+      font-size: 1.25rem;
+      font-weight: 300;
+      font-style: italic;
+      line-height: 1.6;
+      position: relative;
+      z-index: 1;
+    }
+    .quote-block cite {
+      display: block;
+      margin-top: 1.2rem;
+      font-family: var(--ff-body);
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-style: normal;
+    }
+
+    .crp-badge {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background: var(--white);
+      border: 1px solid var(--linen);
+      padding: 1.2rem 1.5rem;
+      border-radius: var(--radius);
+    }
+    .crp-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--sage);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .crp-icon svg { width: 22px; height: 22px; fill: var(--gold); }
+    .crp-text small { display: block; font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
+    .crp-text strong { font-size: 0.95rem; color: var(--text); }
+
+    /* ──────────────────────────────────────────
+       CLINIC SECTION (dark bg)
+    ────────────────────────────────────────── */
+    .clinic-section {
+      background: var(--sage);
+      color: var(--white);
+    }
+    .clinic-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: center;
+    }
+    .clinic-text .section-title { color: var(--white); }
+    .clinic-text .section-eyebrow { color: var(--gold-lt); }
+    .clinic-text .section-eyebrow::before { background: var(--gold-lt); }
+    .clinic-text p {
+      color: rgba(255,255,255,0.7);
+      font-size: 0.97rem;
+      margin-bottom: 1.2rem;
+    }
+    .clinic-text em { color: var(--gold-lt); font-style: italic; }
+    .clinic-visual {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      background: rgba(255,255,255,0.08);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .clinic-feature {
+      background: rgba(255,255,255,0.04);
+      padding: 2rem;
+      transition: background 0.25s;
+    }
+    .clinic-feature:hover { background: rgba(255,255,255,0.08); }
+    .clinic-feature-icon {
+      font-size: 1.6rem;
+      margin-bottom: 0.8rem;
+    }
+    .clinic-feature h4 {
+      font-family: var(--ff-head);
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: var(--white);
+      margin-bottom: 0.4rem;
+    }
+    .clinic-feature p {
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.5);
+      margin: 0 !important;
+    }
+
+    /* ──────────────────────────────────────────
+       DISORDERS SECTION
+    ────────────────────────────────────────── */
+    .disorders-section {
+      background: var(--linen);
+    }
+    .disorders-header {
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+    .disorders-header .section-eyebrow { justify-content: center; }
+    .disorders-header .section-eyebrow::before { display: none; }
+    .disorders-header .section-title { margin: 0 auto; }
+
+    .disorders-grid {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: rgba(44,74,62,0.12);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .disorder-card {
+      background: var(--white);
+      padding: 2rem 1.8rem;
+      transition: background var(--transition), transform var(--transition);
+      cursor: default;
+    }
+    .disorder-card:hover {
+      background: var(--sage);
+    }
+    .disorder-card:hover .disorder-title,
+    .disorder-card:hover .disorder-body { color: var(--white); }
+    .disorder-card:hover .disorder-num { color: rgba(255,255,255,0.2); }
+    .disorder-num {
+      font-family: var(--ff-head);
+      font-size: 3rem;
+      font-weight: 300;
+      color: var(--linen);
+      line-height: 1;
+      margin-bottom: 1rem;
+      transition: color 0.35s;
+    }
+    .disorder-title {
+      font-family: var(--ff-head);
+      font-size: 1.15rem;
+      font-weight: 500;
+      color: var(--sage);
+      margin-bottom: 0.7rem;
+      transition: color 0.35s;
+    }
+    .disorder-body {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.65;
+      transition: color 0.35s;
+    }
+
+    /* ──────────────────────────────────────────
+       SERVICES SECTION
+    ────────────────────────────────────────── */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+    }
+    .service-card {
+      background: var(--white);
+      border: 1px solid var(--linen);
+      border-radius: var(--radius);
+      padding: 2.5rem;
+      display: flex;
+      gap: 1.5rem;
+      transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
+    }
+    .service-card:hover {
+      border-color: var(--sage);
+      box-shadow: 0 12px 40px rgba(44,74,62,0.1);
+      transform: translateY(-3px);
+    }
+    .service-icon {
+      font-size: 2rem;
+      flex-shrink: 0;
+      margin-top: 0.2rem;
+    }
+    .service-card h3 {
+      font-family: var(--ff-head);
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: var(--sage);
+      margin-bottom: 0.6rem;
+    }
+    .service-card p {
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+
+    /* ──────────────────────────────────────────
+       CONVENIO
+    ────────────────────────────────────────── */
+    .convenio-section {
+      text-align: center;
+      background: var(--text);
+      padding: 4rem 5vw;
+    }
+    .convenio-section .section-eyebrow {
+      justify-content: center;
+      color: var(--gold);
+    }
+    .convenio-section .section-eyebrow::before { display: none; }
+    .convenio-section .section-title {
+      color: var(--white);
+      margin-bottom: 0.8rem;
+    }
+    .convenio-section p {
+      color: rgba(255,255,255,0.55);
+      font-size: 0.9rem;
+      margin-bottom: 2.5rem;
+    }
+    .convenio-logos {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .convenio-logo-wrap {
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius);
+      padding: 1.2rem 2.5rem;
+      display: flex;
+      align-items: center;
+    }
+    .convenio-logo-wrap img { height: 40px; filter: brightness(0) invert(1); opacity: 0.7; }
+
+    /* ──────────────────────────────────────────
+       CONTACT / CTA SECTION
+    ────────────────────────────────────────── */
+    .cta-section {
+      background: linear-gradient(135deg, var(--sage) 0%, var(--sage-lt) 100%);
+      padding: 7rem 5vw;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-section::before {
+      content: '';
+      position: absolute;
+      width: 600px; height: 600px;
+      border-radius: 50%;
+      border: 1px solid rgba(201,164,87,0.15);
+      top: 50%; left: 50%;
+      transform: translate(-50%,-50%);
+      pointer-events: none;
+    }
+    .cta-section::after {
+      content: '';
+      position: absolute;
+      width: 900px; height: 900px;
+      border-radius: 50%;
+      border: 1px solid rgba(201,164,87,0.07);
+      top: 50%; left: 50%;
+      transform: translate(-50%,-50%);
+      pointer-events: none;
+    }
+    .cta-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    .cta-inner .section-eyebrow { justify-content: center; color: var(--gold-lt); }
+    .cta-inner .section-eyebrow::before { display: none; }
+    .cta-inner .section-title { color: var(--white); font-size: clamp(2rem, 3.5vw, 3rem); margin-bottom: 1rem; }
+    .cta-inner p { color: rgba(255,255,255,0.65); font-size: 0.97rem; margin-bottom: 2.5rem; }
+
+    /* ──────────────────────────────────────────
+       CONTACT INFO ROW
+    ────────────────────────────────────────── */
+    .contact-section {
+      background: var(--cream);
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 5rem;
+      align-items: start;
+    }
+    .contact-info-list { list-style: none; }
+    .contact-info-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      padding: 1.2rem 0;
+      border-bottom: 1px solid var(--linen);
+    }
+    .contact-info-list li:last-child { border-bottom: none; }
+    .ci-icon {
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      background: var(--sage);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .ci-icon svg { width: 18px; height: 18px; fill: var(--gold); }
+    .ci-text small {
+      display: block;
+      font-size: 0.68rem;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.2rem;
+    }
+    .ci-text a, .ci-text span {
+      font-size: 0.95rem;
+      color: var(--text);
+      font-weight: 400;
+    }
+    .ci-text a:hover { color: var(--sage); }
+
+    .insta-card {
+      background: var(--sage);
+      border-radius: var(--radius);
+      padding: 2rem;
+      text-align: center;
+      color: var(--white);
+    }
+    .insta-card p {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.65);
+      margin-bottom: 1.2rem;
+    }
+    .insta-handles a {
+      display: block;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--gold-lt);
+      margin-bottom: 0.5rem;
+      transition: opacity 0.2s;
+    }
+    .insta-handles a:hover { opacity: 0.75; }
+    .insta-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+
+    /* ──────────────────────────────────────────
+       FINAL QUOTE
+    ────────────────────────────────────────── */
+    .final-quote {
+      background: var(--linen);
+      padding: 6rem 5vw;
+      text-align: center;
+    }
+    .final-quote blockquote {
+      max-width: 760px;
+      margin: 0 auto;
+      font-family: var(--ff-head);
+      font-size: clamp(1.3rem, 2.2vw, 1.9rem);
+      font-weight: 300;
+      font-style: italic;
+      color: var(--sage);
+      line-height: 1.65;
+    }
+    .final-quote cite {
+      display: block;
+      margin-top: 2rem;
+      font-family: var(--ff-body);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-style: normal;
+    }
+
+    /* ──────────────────────────────────────────
+       FOOTER
+    ────────────────────────────────────────── */
+    footer {
+      background: var(--text);
+      padding: 2.5rem 5vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .footer-left {
+      font-family: var(--ff-head);
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: rgba(255,255,255,0.9);
+    }
+    .footer-left span { color: var(--gold); }
+    .footer-right {
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.35);
+    }
+
+    /* ──────────────────────────────────────────
+       WHATSAPP FLOAT
+    ────────────────────────────────────────── */
+    .whatsapp-fab {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      z-index: 999;
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background: #25D366;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+      transition: transform 0.25s, box-shadow 0.25s;
+    }
+    .whatsapp-fab:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 30px rgba(37,211,102,0.5);
+    }
+    .whatsapp-fab svg { width: 30px; height: 30px; fill: white; }
+
+    /* ──────────────────────────────────────────
+       RESPONSIVE
+    ────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .nav-links.open {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        inset: 0;
+        background: var(--sage);
+        z-index: 99;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5rem;
+        animation: fadeIn 0.3s ease;
+      }
+      .nav-links.open a { font-size: 1.1rem; color: rgba(255,255,255,0.85); }
+      .hamburger { display: flex; z-index: 100; }
+      @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+      .hero-content { grid-template-columns: 1fr; padding-top: 8rem; }
+      .hero-card { display: none; }
+      .hero-circle { display: none; }
+
+      .stats-inner { grid-template-columns: repeat(2, 1fr); }
+
+      .about-grid { grid-template-columns: 1fr; }
+      .about-sidebar { position: static; }
+
+      .clinic-inner { grid-template-columns: 1fr; }
+
+      .disorders-grid { grid-template-columns: repeat(2, 1fr); }
+
+      .services-grid { grid-template-columns: 1fr; }
+
+      .contact-grid { grid-template-columns: 1fr; gap: 3rem; }
+    }
+
+    @media (max-width: 540px) {
+      .stats-inner { grid-template-columns: 1fr 1fr; }
+      .disorders-grid { grid-template-columns: 1fr 1fr; }
+      .clinic-visual { grid-template-columns: 1fr; }
+      footer { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav id="navbar">
+    <!-- <img id="logo-contacto" src="./contacto_logo.png" alt="logo contacto" /> -->
+    <div class="nav-logo"><img id="logo-contacto" src="./contacto_logo.png" alt="logo contacto" /> Contacto <span>·</span> Clínica </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#clinica">A Clínica</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#contato">Contato</a></li>
+      <li><a href="https://wa.me/5535999270650" target="_blank" class="nav-cta">Agendar →</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero">
+    <div class="hero-grain"></div>
+    <div class="hero-circle"></div>
+    <div class="hero-content">
+      <div class="hero-text reveal">
+        <span class="eyebrow">Psicologia Clínica · Poços de Caldas</span>
+        <h1>Um espaço para <em>se reencontrar</em> e florescer</h1>
+        <p>Terapia com escuta humanizada, ética e acolhimento — presencial, domiciliar ou online.</p>
+        <div class="hero-actions">
+          <a href="https://wa.me/5535999270650" target="_blank" class="btn btn-gold">Agendar pelo WhatsApp</a>
+          <a href="#sobre" class="btn btn-outline">Conhecer mais</a>
         </div>
-        
-        <section class="services-intro">
-            <div class="container">
-                <h2>Entendendo Transtornos Mentais</h2>
-                <p>Transtornos mentais não são 'frescura'. São reais e afetam milhões de pessoas no mundo. Entender e acolher faz toda a diferença. Vamos falar mais?</p>
-            </div>
-        </section>       
-    
-        <div class="services-grid">
-            <!-- Serviço 1: Ansiedade -->
-            <div class="service-card">
-                <div class="service-header">
-                    <h3>Ansiedade</h3>
-                </div>
-                <div class="service-content">
-                    <p>É viver esperando uma má notícia, com o coração acelerado e a mente cheia de "e se?". Ansiedade é um alerta constante. </p>
-                </div>
-            </div>
-    
-            <!-- Serviço 2: Depressão -->
-            <div class="service-card">
-                <div class="service-header">
-                    <h3>Depressão</h3>
-                </div>
-                <div class="service-content">
-                    <p>Na depressão, a vida perde a cor. Um peso invisível te impede de curtir o que antes amava. Tudo vira tons de cinza.</p>
-                </div>
-            </div>
-    
-            <!-- Serviço 3: Transtorno do Pânico -->
-            <div class="service-card">
-                <div class="service-header">
-                    <h3>Transtorno do Pânico</h3>
-                </div>
-                <div class="service-content">
-                    <p>De repente, o peito aperta e parece que o mundo vai acabar. No transtorno do pânico, o corpo dispara um alarme falso, mas tão real.</p>
-                </div>
-            </div>
-    
-            <!-- Serviço 4: Transtorno Obsessivo-Compulsivo (TOC) -->
-            <div class="service-card">
-                <div class="service-header">
-                    <h3>Transtorno Obsessivo-Compulsivo (TOC)</h3>
-                </div>
-                <div class="service-content">
-                    <p>Sabe quando uma ideia não sai da cabeça? No TOC, é como um "supervisor interno" te forçando a checar a porta mil vezes ou repetir uma frase pra se sentir seguro.</p>
-                </div>
-            </div>
-    
-            <!-- Serviço 5: TDAH -->
-            <div class="service-card">
-                <div class="service-header">
-                    <h3>TDAH</h3>
-                </div>
-                <div class="service-content">
-                    <p>No TDAH, a mente é um rádio trocando de estação sem parar. Focar é um desafio com tantas "vozes" na cabeça.</p>
-                </div>
-            </div>
-    
-            <!-- Serviço 6: TPA – Transtorno de Personalidade Antissocial -->
-            <div class="service-card">
-                <div class="service-header">
-                    <h3>TPA – Transtorno de Personalidade Antissocial</h3>
-                </div>
-                <div class="service-content">
-                    <p>No TPA, regras e sentimentos alheios parecem não importar. A pessoa pode agir com frieza, manipular ou até ferir sem culpa. Mas por trás disso, há uma história que também precisa ser compreendida.</p>
-                </div>
-            </div>
-            
-            <!-- Serviço 7: Angústia -->
-            <div class="service-card">
-                <div class="service-header">
-                    <h3>Angústia</h3>
-                </div>
-                <div class="service-content">
-                    <p>Na angústia é como um aperto no peito sem motivo claro. É o coração acelerado, o nó na garganta, a sensação de que algo está errado mesmo quando tudo parece bem. Ela pode surgir em momentos de incerteza, perdas, decisões difíceis ou até sem razão aparente. E, ainda assim, é real, válida e merece cuidado.</p>
-                </div>
-            </div>
-            
-            <!-- Serviço 8: Bipolaridade -->
-            <div class="service-card">
-                <div class="service-header">
-                    <h3>Bipolaridade</h3>
-                </div>
-                <div class="service-content">
-                    <p> Na Bipolaridade é viver entre extremos emocionais.Em um dia, uma energia que transborda, ideias a mil, insônia e euforia. No outro, um cansaço profundo, desânimo e a vontade de desaparecer sob as cobertas. As emoções oscilam de forma intensa e, muitas vezes, sem aviso.</p>
-                    <p>Não é drama, nem preguiça: é um transtorno real que merece acolhimento e tratamento.</p>
-                </div>
-            </div>
-        </div>                
-    
-        <div class="container">        
-            <section id="cuidados">
-                <h2>A importância da identificação dos sintomas</h2>
-                <p>Esses quadros podem afetar intensamente a vida de uma pessoa, mas com o acompanhamento terapêutico, é possível entender melhor o que está acontecendo e encontrar caminhos de cuidado. Identificou sintomas semelhantes ou parecidos? Buscar ajuda é um passo importante para melhorar e aprender a lidar com esses transtornos.</p>
-                <br/>
-            </section>
+      </div>
+      <div class="hero-card reveal" style="transition-delay:0.2s">
+        <div class="hero-card-inner">
+          <img src="./assets/imagens/foto_perfil.jpg" alt="Psicólogo Ricardo Ribeiro" class="hero-img" />
+          <div class="hero-badge">
+            <strong>Ricardo Ribeiro</strong>
+            Psicólogo · CRP 04/79520
+          </div>
         </div>
-        
-        <section class="services-intro">
-            <div class="container">
-                <h2>Conheça nossos serviços</h2>
-            </div>
-        </section>
-    
-        <div class="services-grid">
-            <!-- Serviço 1: Atendimento Online -->
-            <div class="service-card">
-                <div class="service-header">
-                    <h3>Atendimento Online</h3>
-                </div>
-                <div class="service-content">
-                    <p>Terapia à distância, com a mesma qualidade e acolhimento do atendimento presencial. Ideal para quem tem uma rotina agitada ou mora longe.</p>
-                </div>
-            </div>
-    
-            <!-- Serviço 2: Atendimento Domiciliar -->
-            <div class="service-card">
-                <div class="service-header">
-                    <h3>Atendimento Domiciliar</h3>
-                </div>
-                <div class="service-content">
-                    <p>Psicoterapia no Conforto do Lar. O atendimento Domiciliar é a psicoterapia realizada no domicílio, oferecendo conforto, conveniência e atenção personalizada. Ideal para idosos, pessoas com mobilidade reduzida, em recuperação de cirurgias, doenças crônicas ou em cuidados paliativos. Um suporte emocional acolhedor, diretamente em casa.</p>
-                </div>
-            </div>
-    
-            <!-- Serviço 3: Atendimento Presencial -->
-            <div class="service-card">
-                <div class="service-header">
-                    <h3>Atendimento Presencial</h3>
-                </div>
-                <div class="service-content">
-                    <p>Um Espaço para Você. No atendimento presencial, oferecemos um ambiente acolhedor e seguro para você explorar suas emoções, superar desafios e se conectar consigo mesmo. Um espaço dedicado ao cuidado emocional e ao autoconhecimento.</p>
-                </div>
-            </div>
-    
-            <!-- Serviço 4: Plantão Psicológico -->
-            <div class="service-card">
-                <div class="service-header">
-                    <h3>Plantão Psicológico</h3>
-                </div>
-                <div class="service-content">
-                    <p>Apoio em Momentos de Crise. O plantão psicológico oferece acolhimento imediato para quem enfrenta situações de sofrimento ou precisa organizar seus pensamentos em momentos difíceis. É um espaço de escuta e apoio, focado na sua necessidade atual.</p>
-                </div>
-            </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── STATS ── -->
+  <div class="stats-strip">
+    <div class="stats-inner">
+      <div class="stat-item reveal">
+        <div class="stat-number">4+</div>
+        <div class="stat-label">Anos de experiência</div>
+      </div>
+      <div class="stat-item reveal" style="transition-delay:0.1s">
+        <div class="stat-number">4</div>
+        <div class="stat-label">Modalidades de atendimento</div>
+      </div>
+      <div class="stat-item reveal" style="transition-delay:0.2s">
+        <div class="stat-number">8</div>
+        <div class="stat-label">Transtornos acolhidos</div>
+      </div>
+      <div class="stat-item reveal" style="transition-delay:0.3s">
+        <div class="stat-number">1</div>
+        <div class="stat-label">Convênio aceito</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── SOBRE ── -->
+  <section id="sobre">
+    <div class="section">
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="section-eyebrow">Sobre o Profissional</p>
+          <h2 class="section-title">Ricardo Ribeiro, <em>psicólogo clínico</em></h2>
+          <div class="divider"></div>
+          <p>Bacharel em Psicologia pelo Centro Universitário UNIFEOB. Tenho como missão <strong>acolher, compreender e auxiliar</strong> cada pessoa que busca por um espaço de escuta, reflexão e crescimento.</p>
+          <p>Desde os primeiros anos da graduação, me encantei pela <strong>psicologia hospitalar e a Abordagem Humanista</strong>, vivenciando o cuidado com pessoas em situações de dor, luto, adoecimento e finitude — uma experiência que reforçou minha vocação por uma escuta ética e acolhedora.</p>
+          <p>A abordagem que utilizo é baseada na <strong>Psicologia Humanista, com ênfase na Logoterapia</strong> de Viktor Frankl — a ideia de que, mesmo diante do sofrimento, é possível encontrar um sentido para a vida. Sou também influenciado pela <strong>Abordagem Centrada na Pessoa (ACP) de Carl Rogers</strong>, que valoriza uma relação terapêutica genuína, empática e acolhedora.</p>
+          <p>Realizo atendimentos <strong>Online, Domiciliar, Presencial e Plantão Psicológico</strong>.</p>
+          <div class="approach-tags">
+            <span class="tag">Logoterapia</span>
+            <span class="tag">Viktor Frankl</span>
+            <span class="tag">Abordagem Humanista</span>
+            <span class="tag">Carl Rogers</span>
+            <span class="tag">ACP</span>
+            <span class="tag">Psicologia Hospitalar</span>
+          </div>
         </div>
-    
-        <section class="convenio-section">
-            <h2>Convênios</h2>
-            <p>A Contacto Clínica de Psicologia tem parceria com planos de saúde para facilitar seu acesso ao cuidado psicológico.</p>
-            <div class="convenio-logos">
-                <img src="./assets/imagens/logo-hapvida-NotreDame-Intermedica.png" alt="Notre Dame Intermédica.png" class="convenio-logo"> 
+        <div class="about-sidebar">
+          <div class="quote-block reveal">
+            <p>"Acredite na sua capacidade de autotranscendência e de transformação para melhor."</p>
+            <cite>— Ricardo Ribeiro, 2020</cite>
+          </div>
+          <div class="crp-badge reveal" style="transition-delay:0.15s">
+            <div class="crp-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
             </div>
-        </section>
-    
-        <div class="container">
-            <section id="para-quem">
-                <h2>Pra quem é a terapia?</h2>
-                <p>A terapia é para todos: pessoas em sofrimento emocional, em busca de autoconhecimento, com dificuldades de relacionamento ou enfrentando fases difíceis da vida.</p>
-            </section>
-    
-            <section id="importancia">
-                <h2>Importância da Terapia</h2>
-                <p>Promove o bem-estar, fortalece a saúde mental, desenvolve habilidades emocionais e proporciona mais qualidade de vida.</p>
-                <a class="cta-button" href="https://wa.me/5535999270650" target="_blank">Agendar pelo WhatsApp</a>
-            </section>
-    
-            <section id="contato">
-                <h2>Contato</h2>
-                <p><strong>Endereço:</strong> Poços de Caldas, Minas Gerais</p>
-                <p><strong>Telefone:</strong> (35) 99927-0650</p>
-                <p><strong>Email:</strong> ricardoribeiropsicologoofc@gmail.com</p>
-                <p><strong>Instagram:</strong> 
-                    <a href="https://instagram.com/ricardoribeiropsicologo" target="_blank" style="color: #e6b52e;">@ricardoribeiropsicologo</a> | 
-                    <a href="https://instagram.com/contactoclinicadepsicologia" target="_blank" style="color: #e6b52e;">@contactoclinicadepsicologia</a>
-                </p>
-            </section>
-    
-            <!-- Seção Instagram Feed -->
-            <section id="instagram-feed">
-                <h2>Siga nosso Instagram</h2>
-                <p>Acompanhe nosso conteúdo sobre saúde mental, dicas, reflexões e novidades da clínica.</p>
-                <br/>
-                <div class="instagram-container">
-                    <iframe class="instagram-widget" src="https://www.instagram.com/contactoclinicadepsicologia/embed" width="100%" height="500px" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
-                </div>
-                
-            </section>
-            
-            <!-- Seção de encerramento com citação -->
-            <section class="quote-section">
-                <blockquote cite="https://www.instagram.com/contactoclinicadepsicologia">
-                    <p>
-                    "Acredite na sua capacidade de autotranscendência e de transformação para melhor.
-                    Ao mesmo tempo, reconheça que, como seres humanos, estamos sujeitos a errar,
-                    mas também a aprender com nossos erros. Nem tudo é em vão: podemos buscar redenção,
-                    um novo ciclo pautado em uma vida de maior equilíbrio psíquico e físico."
-                    </p>
-                    <br/>
-                    <p><strong>Ricardo Ribeiro, 2020</strong></p>
-                </blockquote>
-            </section>
+            <div class="crp-text">
+              <small>Registro Profissional</small>
+              <strong>CRP 04/79520 — MG</strong>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <section class="carrossel">
-            <span class="span-carrossel">PASSE PARA O LADO</span>
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="project-img">
-                      <img src="./assets/imagens/1.jpg" alt="Foto 01">
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="project-img">
-                      <img src="./assets/imagens/2.jpg" alt="Foto 02">
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="project-img">
-                      <img src="./assets/imagens/3.jpg" alt="Foto 03">
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="project-img">
-                      <img src="./assets/imagens/4.jpg" alt="Foto 04">
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="project-img">
-                      <img src="./assets/imagens/5.jpg" alt="Foto 05">
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="project-img">
-                      <img src="./assets/imagens/6.jpg" alt="Foto 06">
-                    </div>
-                  </div>
-                </div>
-              
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-pagination"></div>
+  <!-- ── A CLÍNICA ── -->
+  <section id="clinica" class="section-full clinic-section">
+    <div class="clinic-inner">
+      <div class="clinic-text reveal">
+        <p class="section-eyebrow">A Clínica</p>
+        <h2 class="section-title">Contato com o <em>seu eu</em> mais íntimo</h2>
+        <div class="divider" style="background:rgba(201,164,87,0.5)"></div>
+        <p>A <strong>Contato Clínica de Psicologia</strong> nasce do desejo de criar um espaço terapêutico que acolhe, escuta e transforma — um lugar onde o ser humano pode se encontrar, ressignificar e florescer.</p>
+        <p>Nosso nome representa a conexão genuína com a própria essência, com os outros e com o mundo. Acreditamos que o <em>contato verdadeiro consigo mesmo</em> é o primeiro passo para o autoconhecimento e para a construção de uma vida com sentido.</p>
+        <p>Nossa missão: <em>"tocar vidas e fazê-las entrarem em contato com seu eu mais íntimo, entrando na presença e significado para transformar e florescer suas essências da vida."</em></p>
+        <br/>
+        <a href="https://wa.me/5535999270650" target="_blank" class="btn btn-gold" style="margin-top:1rem">Agendar consulta →</a>
+      </div>
+      <div class="clinic-visual reveal" style="transition-delay:0.2s">
+        <div class="clinic-feature">
+          <div class="clinic-feature-icon">🫶</div>
+          <h4>Escuta Humanizada</h4>
+          <p>Um espaço seguro e livre de julgamentos.</p>
+        </div>
+        <div class="clinic-feature">
+          <div class="clinic-feature-icon">⚖️</div>
+          <h4>Ética Profissional</h4>
+          <p>Sigilo absoluto e respeito ao seu processo.</p>
+        </div>
+        <div class="clinic-feature">
+          <div class="clinic-feature-icon">🌱</div>
+          <h4>Singularidade</h4>
+          <p>Cada ser humano é único e acolhido como tal.</p>
+        </div>
+        <div class="clinic-feature">
+          <div class="clinic-feature-icon">✨</div>
+          <h4>Sentido e Propósito</h4>
+          <p>Juntos buscamos o que dá significado à sua vida.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TRANSTORNOS ── -->
+  <section class="section-full disorders-section">
+    <div class="disorders-header reveal">
+      <p class="section-eyebrow">Saúde Mental</p>
+      <h2 class="section-title">Entendendo <em>transtornos mentais</em></h2>
+      <div class="divider" style="margin: 1.2rem auto 0.5rem;"></div>
+      <p style="font-size:0.97rem; color:var(--muted); max-width:520px; margin:0 auto 3rem;">Transtornos mentais não são "frescura". São reais e afetam milhões de pessoas. Entender e acolher faz toda a diferença.</p>
+    </div>
+    <div class="disorders-grid">
+      <div class="disorder-card reveal">
+        <div class="disorder-num">01</div>
+        <div class="disorder-title">Ansiedade</div>
+        <div class="disorder-body">É viver esperando uma má notícia, com o coração acelerado e a mente cheia de "e se?". Um alerta constante que não se desliga.</div>
+      </div>
+      <div class="disorder-card reveal" style="transition-delay:0.07s">
+        <div class="disorder-num">02</div>
+        <div class="disorder-title">Depressão</div>
+        <div class="disorder-body">Na depressão, a vida perde a cor. Um peso invisível impede de curtir o que antes amava. Tudo vira tons de cinza.</div>
+      </div>
+      <div class="disorder-card reveal" style="transition-delay:0.14s">
+        <div class="disorder-num">03</div>
+        <div class="disorder-title">Transtorno do Pânico</div>
+        <div class="disorder-body">De repente, o peito aperta e parece que o mundo vai acabar. O corpo dispara um alarme falso — mas tão real quanto qualquer dor física.</div>
+      </div>
+      <div class="disorder-card reveal" style="transition-delay:0.21s">
+        <div class="disorder-num">04</div>
+        <div class="disorder-title">TOC</div>
+        <div class="disorder-body">Um "supervisor interno" te força a checar a porta mil vezes ou repetir uma frase para se sentir seguro. Um ciclo que parece impossível de parar.</div>
+      </div>
+      <div class="disorder-card reveal" style="transition-delay:0.07s">
+        <div class="disorder-num">05</div>
+        <div class="disorder-title">TDAH</div>
+        <div class="disorder-body">A mente é um rádio trocando de estação sem parar. Focar é um desafio com tantos estímulos competindo pela atenção.</div>
+      </div>
+      <div class="disorder-card reveal" style="transition-delay:0.14s">
+        <div class="disorder-num">06</div>
+        <div class="disorder-title">TPA</div>
+        <div class="disorder-body">Regras e sentimentos alheios parecem não importar. Por trás de um comportamento frio há sempre uma história que também precisa ser compreendida.</div>
+      </div>
+      <div class="disorder-card reveal" style="transition-delay:0.21s">
+        <div class="disorder-num">07</div>
+        <div class="disorder-title">Angústia</div>
+        <div class="disorder-body">Um aperto no peito sem motivo claro. O nó na garganta, a sensação de que algo está errado mesmo quando tudo parece bem.</div>
+      </div>
+      <div class="disorder-card reveal">
+        <div class="disorder-num">08</div>
+        <div class="disorder-title">Bipolaridade</div>
+        <div class="disorder-body">Viver entre extremos. Euforia e energia em um dia; cansaço profundo e desânimo no outro. Não é drama — é um transtorno real que merece acolhimento.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SERVIÇOS ── -->
+  <section id="servicos">
+    <div class="section">
+      <p class="section-eyebrow reveal">Modalidades</p>
+      <h2 class="section-title reveal">Nossos <em>serviços</em></h2>
+      <div class="divider reveal"></div>
+      <p class="section-lead reveal">Atendimento com qualidade e cuidado em qualquer formato que funcione para você.</p>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">💻</div>
+          <div>
+            <h3>Atendimento Online</h3>
+            <p>Terapia à distância com a mesma qualidade e acolhimento do presencial. Ideal para quem tem rotina agitada ou mora longe.</p>
+          </div>
+        </div>
+        <div class="service-card reveal" style="transition-delay:0.1s">
+          <div class="service-icon">🏠</div>
+          <div>
+            <h3>Atendimento Domiciliar</h3>
+            <p>Psicoterapia no conforto do lar. Ideal para idosos, pessoas com mobilidade reduzida, em recuperação ou em cuidados paliativos.</p>
+          </div>
+        </div>
+        <div class="service-card reveal" style="transition-delay:0.15s">
+          <div class="service-icon">🛋️</div>
+          <div>
+            <h3>Atendimento Presencial</h3>
+            <p>Um ambiente acolhedor e seguro para explorar emoções, superar desafios e se conectar consigo mesmo.</p>
+          </div>
+        </div>
+        <div class="service-card reveal" style="transition-delay:0.2s">
+          <div class="service-icon">🆘</div>
+          <div>
+            <h3>Plantão Psicológico</h3>
+            <p>Apoio imediato para quem enfrenta situações de sofrimento ou precisa organizar pensamentos em momentos de crise.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONVÊNIO ── -->
+  <section class="convenio-section">
+    <p class="section-eyebrow" style="justify-content:center; display:inline-flex;">Parcerias</p>
+    <h2 class="section-title">Convênios <em style="color:var(--gold)">aceitos</em></h2>
+    <p>Facilitando seu acesso ao cuidado psicológico.</p>
+    <div class="convenio-logos">
+      <div class="convenio-logo-wrap">
+        <img src="./assets/imagens/logo-hapvida-NotreDame-Intermedica.png" alt="Hapvida Notre Dame Intermédica" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA CENTRAL ── -->
+  <section class="cta-section">
+    <div class="cta-inner">
+      <p class="section-eyebrow">Pronto para começar?</p>
+      <h2 class="section-title">A terapia é para <em>todos</em></h2>
+      <p>Pessoas em sofrimento emocional, em busca de autoconhecimento, com dificuldades de relacionamento ou enfrentando fases difíceis da vida. Buscar ajuda não é fraqueza — é um gesto de coragem.</p>
+      <a href="https://wa.me/5535999270650" target="_blank" class="btn btn-gold" style="font-size:0.9rem; padding:1rem 2.5rem;">
+        Agendar pelo WhatsApp →
+      </a>
+    </div>
+  </section>
+
+  <!-- ── CONTATO ── -->
+  <section id="contato" class="section-full contact-section">
+    <div class="section" style="padding-top:0; padding-bottom:0;">
+      <div style="padding-top:7rem; padding-bottom:7rem;">
+        <p class="section-eyebrow reveal">Fale conosco</p>
+        <h2 class="section-title reveal">Informações de <em>contato</em></h2>
+        <div class="divider reveal"></div>
+        <div class="contact-grid">
+          <ul class="contact-info-list">
+            <li class="reveal">
+              <div class="ci-icon">
+                <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              </div>
+              <div class="ci-text">
+                <small>Endereço</small>
+                <span>Poços de Caldas, Minas Gerais</span>
+              </div>
+            </li>
+            <li class="reveal">
+              <div class="ci-icon">
+                <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              </div>
+              <div class="ci-text">
+                <small>Telefone / WhatsApp</small>
+                <a href="tel:5535999270650">(35) 99927-0650</a>
+              </div>
+            </li>
+            <li class="reveal">
+              <div class="ci-icon">
+                <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              </div>
+              <div class="ci-text">
+                <small>E-mail</small>
+                <a href="mailto:ricardoribeiropsicologoofc@gmail.com">ricardoribeiropsicologoofc@gmail.com</a>
+              </div>
+            </li>
+          </ul>
+          <div class="insta-card reveal" style="transition-delay:0.2s">
+            <div class="insta-icon">📸</div>
+            <p>Acompanhe conteúdo sobre saúde mental, dicas, reflexões e novidades.</p>
+            <div class="insta-handles">
+              <a href="https://instagram.com/ricardoribeiropsicologo" target="_blank">@ricardoribeiropsicologo</a>
+              <a href="https://instagram.com/contactoclinicadepsicologia" target="_blank">@contactoclinicadepsicologia</a>
             </div>
-          </section>
-  
-        <footer>
-            &copy; 2025 Contacto Clínica de Psicologia | Psicólogo Ricardo Ribeiro
-        </footer>
-         <!-- arquivos javascript -->
-        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-        <script src="script-carrossel.js"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- ── QUOTE FINAL ── -->
+  <section class="final-quote">
+    <blockquote class="reveal">
+      "Acredite na sua capacidade de autotranscendência e de transformação para melhor.
+      Ao mesmo tempo, reconheça que, como seres humanos, estamos sujeitos a errar,
+      mas também a aprender com nossos erros. Nem tudo é em vão: podemos buscar redenção,
+      um novo ciclo pautado em uma vida de maior equilíbrio psíquico e físico."
+      <cite>Ricardo Ribeiro, 2020</cite>
+    </blockquote>
+  </section>
 
-    </body>
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-left">Contacto <span>·</span> Clínica de Psicologia</div>
+    <div class="footer-right">© 2026 Ricardo Ribeiro CRP 04/79520</div>
+  </footer>
+
+  <!-- ── WHATSAPP FAB ── -->
+  <a href="https://wa.me/5535999270650" target="_blank" class="whatsapp-fab" aria-label="Fale pelo WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script>
+    // ── NAV SCROLL ──
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // ── HAMBURGER ──
+    function toggleMenu() {
+      const links = document.getElementById('navLinks');
+      const ham   = document.getElementById('hamburger');
+      links.classList.toggle('open');
+      ham.classList.toggle('open');
+    }
+    // Close menu on link click
+    document.querySelectorAll('.nav-links a').forEach(a => {
+      a.addEventListener('click', () => {
+        document.getElementById('navLinks').classList.remove('open');
+        document.getElementById('hamburger').classList.remove('open');
+      });
+    });
+
+    // ── SCROLL REVEAL ──
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+</body>
 </html>
